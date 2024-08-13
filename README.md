@@ -15,9 +15,7 @@
 
 ## Description
 
-This a progressive web application, "PWA" in the form of a text editor. The application uses [Express.js](https://expressjs.com/) for handling the routes and server as well as several packages for building and managing the PWA such as [Babel](), [Webpack](),  The [Node language manager](https://expressjs.com/) uses those packages to perform CRUD actions such as to create, update, get, and delete the users, their "thoughts', reactions to thoughts, and managing friends of users. To easily interact with these API calls a user can use an application such as [Insomnia](https://insomnia.rest/).
-
-Creating this application taught me a new way to manage the database without a set relational structure. There was intensive learning of the new ways to setup managing a database in MongoDB and using Mongoose. Further development involves implementing a front end for a nicer appearance and direct user interaction with the app.
+This a progressive web application, "PWA" in the form of a text editor. The application uses [Express.js](https://expressjs.com/) for handling the routes and server as well as several packages for building and managing the PWA such as those from [Babel](https://babeljs.io/docs/usage), [Webpack](https://webpack.js.org/guides/getting-started/). The [Node language manager](https://expressjs.com/) uses those packages to build and run the application.
 
 ## Technologies and Packages Used
 
@@ -31,17 +29,13 @@ Creating this application taught me a new way to manage the database without a s
   
 ## Installation
 
-This is a full functioning
-
-First to use this application head to [PWA - J.A.T.E](https://github.com/EXCervantes/pwa-jate) and clone the repository. To learn how to clone a repository checkout this guide [Cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
-
-You must have `Node` installed on your system. Go [here](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs) for instructions on how to do so. To properly run this application you must have [MongoDB](https://www.mongodb.com/) installed on your system. Run `npm i` in the root directory to install the necessary dependencies onto your system.
+This is a full functioning application deployed at [this link](https://pwa-jate-zgyl.onrender.com/). On that page there is a button named "Install" that will install this application as on offline app on a local system. After the install a shortcut icon will be created that will open up the application from the local system.
 
 ## Usage
 
-Once Node, MongoDB, and the necessary dependencies have been installed, initialize the application in the Terminal in VSCode and run `npm run dev` or `npm run start`. Now the server is active and a user can use an application such as [Insomnia](https://insomnia.rest/) to perform the CRUD operations with this application.
+This application is a text editor that will store user inputted text in their local IndexDB and local storage. Data will persist even when the app is refreshed or closed. Upon opening the app again, the stored entries in the local system will be populated.
 
-There are full CRUD operations for "users" and "thoughts" also known as posts, and both create and delete methods for "reactions", or comments to thoughts and a user's friends. Also note deleting a user will also remove that particular user's thoughts from the database.
+If a user opens up the Dev Tools logs of the data being stored in the IndexDB and local storage can be seen. Also there, a user can see the service workers running and the application manifest.
 
 ### Application Deployed on Render
 
@@ -49,16 +43,14 @@ Follow [this link](https://pwa-jate-zgyl.onrender.com/) to visit this applicatio
 
 ### Screenshots of the Application
 
-![Users](images/socialnetworkapiscreen1.jpg)
-![Thoughts](images/socialnetworkapiscreen2.jpg)
-![Reactions](images/socialnetworkapiscreen3.jpg)
-![Friends](images/socialnetworkapiscreen4.jpg)
+![App In Browser](images/jate-pwa-screen1.jpg)
+![App Running Locally](images/jate-pwa-screen2.jpg)
+![Service Worker](images/jate-pwa-screen3.jpg)
+![Manifest File](images/jate-pwa-screen4.jpg)
 
 ## Credits
 
-Referenced for how to cascade delete the user's thoughts from the database in MongoDB.
-
-"_node.js - MongoDB Delete all documents that created by user when deleting user - Stack Overflow_". (2018, June 12). Stack Overflow. Retrieved August 3, 2024, from https://stackoverflow.com/questions/50814052/mongodb-delete-all-documents-that-created-by-user-when-deleting-user
+N/A
   
 ## License
 
