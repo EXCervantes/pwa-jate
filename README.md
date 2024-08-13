@@ -17,7 +17,7 @@
 
 This a progressive web application, "PWA" in the form of a text editor. The application uses [Express.js](https://expressjs.com/) for handling the routes and server as well as several packages for building and managing the PWA such as those from [Babel](https://babeljs.io/docs/usage), [Webpack](https://webpack.js.org/guides/getting-started/), [Workbox](https://developer.chrome.com/docs/workbox/the-ways-of-workbox/#using-a-bundler), and several others. The [Node language manager](https://expressjs.com/) uses those packages to build and run the application.
 
-This project is deployed to [Render Dashboard]() as an app which can be used in the browser. In addition, this application can be installed on a local system for offline use.
+This project is deployed to [Render Dashboard](https://dashboard.render.com/) as an app which can be used in the browser. In addition, this application can be installed on a local system for offline use.
 
 ## Technologies and Packages Used
 
@@ -29,7 +29,7 @@ This project is deployed to [Render Dashboard]() as an app which can be used in 
 - [Workbox](https://developer.chrome.com/docs/workbox/the-ways-of-workbox/#using-a-bundler)
 - [IDB](https://www.npmjs.com/package/idb)
 - [Code Mirror Themes](https://www.npmjs.com/package/code-mirror-themes)
-- [Render Dashboard]()
+- [Render Dashboard](https://dashboard.render.com/)
   
 ## Installation
 
