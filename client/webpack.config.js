@@ -4,9 +4,6 @@ const path = require('path');
 // Workbox plugins for a service worker and manifest file
 const { InjectManifest } = require('workbox-webpack-plugin');
 
-// CSS loaders
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-
 module.exports = () => {
   return {
     mode: 'development',
@@ -23,7 +20,6 @@ module.exports = () => {
         template: './index.html',
         title: 'Webpack Plugin',
       }),
-      new MiniCssExtractPlugin(),
       new InjectManifest({
         swSrc: './src-sw.js',
         swDest: 'src-sw.js',
@@ -34,10 +30,10 @@ module.exports = () => {
         name: 'Just Another Text Editor',
         short_name: 'J.A.T.E',
         description: 'Takes notes with JavaScript syntax highlighting!',
-        background_color: '#003B59',
-        theme_color: '#003B59',
-        start_url: './',
-        publicPath: './',
+        background_color: '#225ca3',
+        theme_color: '#225ca3',
+        start_url: '/',
+        publicPath: '/',
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
