@@ -1,8 +1,8 @@
-# J.A.T.E - Just Another Text Editor PWA
+# PWA - J.A.T.E (Just Another Text Editor)
 
 ## Table of Contents
 
-- [J.A.T.E - Just Another Text Editor PWA](#jate---just-another-text-editor-pwa)
+- [PWA - J.A.T.E (Just Another Text Editor)](#pwa---jate-just-another-text-editor)
   - [Table of Contents](#table-of-contents)
   - [Description](#description)
   - [Technologies and Packages Used](#technologies-and-packages-used)
@@ -15,7 +15,7 @@
 
 ## Description
 
-This a progressive web application, "PWA" in the form of a text editor. The application uses [Express.js](https://expressjs.com/) for handling the routes and server as well as several packages for building and managing the PWA such as  The [Node language manager](https://expressjs.com/) uses those packages to perform CRUD actions such as to create, update, get, and delete the users, their "thoughts', reactions to thoughts, and managing friends of users. To easily interact with these API calls a user can use an application such as [Insomnia](https://insomnia.rest/).
+This a progressive web application, "PWA" in the form of a text editor. The application uses [Express.js](https://expressjs.com/) for handling the routes and server as well as several packages for building and managing the PWA such as [Babel](), [Webpack](),  The [Node language manager](https://expressjs.com/) uses those packages to perform CRUD actions such as to create, update, get, and delete the users, their "thoughts', reactions to thoughts, and managing friends of users. To easily interact with these API calls a user can use an application such as [Insomnia](https://insomnia.rest/).
 
 Creating this application taught me a new way to manage the database without a set relational structure. There was intensive learning of the new ways to setup managing a database in MongoDB and using Mongoose. Further development involves implementing a front end for a nicer appearance and direct user interaction with the app.
 
@@ -23,17 +23,19 @@ Creating this application taught me a new way to manage the database without a s
 
 - [Node.js](https://nodejs.org/en)
 - [Express.js](https://expressjs.com/)
-- [Mongoose](https://www.npmjs.com/package/mongoose)
-- [MongoDB](https://www.mongodb.com/)
-- [Insomnia](https://insomnia.rest/)
+- [Babel]()
+- [Concurrently]()
+- [Webpack]()
+- [Workbox]()
+- [Cache]()
   
 ## Installation
 
-First to use this application head to [Social Network API](https://github.com/EXCervantes/social-network-api) and clone the repository. To learn how to clone a repository checkout this guide [Cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
+This is a full functioning
 
-You must have `Node` installed on your system. Go [here](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs) for instructions on how to do so. To properly run this application you must have [MongoDB](https://www.mongodb.com/) installed on your system. Run `npm i` to install the necessary dependencies onto your system.
+First to use this application head to [PWA - J.A.T.E](https://github.com/EXCervantes/pwa-jate) and clone the repository. To learn how to clone a repository checkout this guide [Cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
 
-This application runs in the Terminal of VSCode and must be initialized there before REST API clients like Insomnia can interact with the application properly. More on that in the section below.
+You must have `Node` installed on your system. Go [here](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs) for instructions on how to do so. To properly run this application you must have [MongoDB](https://www.mongodb.com/) installed on your system. Run `npm i` in the root directory to install the necessary dependencies onto your system.
 
 ## Usage
 
