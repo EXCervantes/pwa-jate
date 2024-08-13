@@ -15,17 +15,18 @@
 
 ## Description
 
-This a progressive web application, "PWA" in the form of a text editor. The application uses [Express.js](https://expressjs.com/) for handling the routes and server as well as several packages for building and managing the PWA such as those from [Babel](https://babeljs.io/docs/usage), [Webpack](https://webpack.js.org/guides/getting-started/). The [Node language manager](https://expressjs.com/) uses those packages to build and run the application.
+This a progressive web application, "PWA" in the form of a text editor. The application uses [Express.js](https://expressjs.com/) for handling the routes and server as well as several packages for building and managing the PWA such as those from [Babel](https://babeljs.io/docs/usage), [Webpack](https://webpack.js.org/guides/getting-started/), [Workbox](https://developer.chrome.com/docs/workbox/the-ways-of-workbox/#using-a-bundler), and several others. The [Node language manager](https://expressjs.com/) uses those packages to build and run the application.
 
 ## Technologies and Packages Used
 
 - [Node.js](https://nodejs.org/en)
 - [Express.js](https://expressjs.com/)
-- [Babel]()
-- [Concurrently]()
-- [Webpack]()
-- [Workbox]()
-- [Cache]()
+- [Babel](https://babeljs.io/docs/usage)
+- [Concurrently](https://www.npmjs.com/package/concurrently)
+- [Webpack](https://webpack.js.org/guides/getting-started/)
+- [Workbox](https://developer.chrome.com/docs/workbox/the-ways-of-workbox/#using-a-bundler)
+- [IDB](https://www.npmjs.com/package/idb)
+- [Code Mirror Themes](https://www.npmjs.com/package/code-mirror-themes)
   
 ## Installation
 
